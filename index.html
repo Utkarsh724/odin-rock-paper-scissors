@@ -3,17 +3,17 @@
     <head>
         <meta charset="utf-8">
         <title>Rock-Paper-Scissors</title>
-        <script src="./index.js"></script>
+        <script src="./index.js" defer></script>
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
         <h1>ROCK PAPER SCISSORS</h1>
         <div class="main">
-            <div>Choose your weapon to start the game</div>
-            <div>First to score 5 points wins the game</div>
+            <div class="end">Choose your weapon to start the game</div>
+            <div class="result">First to score 5 points wins the game</div>
             <div class="score">
-                <div>Player: 0</div>
-                <div>Computer: 0</div>
+                <div class="userScore">Player: <span id="span1">0</span></div>
+                <div class="computerScore">Computer: <span id="span2">0</span></div>
             </div>
             <div class="arsenal">
                 <button class="weapon">Rock</button>
